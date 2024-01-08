@@ -4,21 +4,23 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .header__img {
     width: 100%;
 }
+
 .header__info {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-
     .header {
         text-align: center;
     }
@@ -29,26 +31,33 @@
     width: 500px;
     margin: 0 auto 0;
 }
+
 .task__title,
 .task__input {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
+
 .section-add__wrapper {
     display: flex;
 }
-.task-list{
+
+.task-list {
     margin: 0;
     padding: 0;
 }
 
-.task, .subtitle {
-    list-style:none;
+.task,
+.subtitle {
+    list-style: none;
 }
-.task__input,.task__button{
-    outline:none;
+
+.task__input,
+.task__button {
+    outline: none;
 }
+
 .task__button {
     background: none;
     border: 0px;
@@ -58,16 +67,19 @@
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .task__button:hover {
     color: #3a3A3a;
 }
+
 /* Heading */
-.invisible{
+.invisible {
     position: fixed;
     visibility: hidden;
 }
+
 .subtitle,
-.section-add__tittle{
+.section-add__tittle {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -76,6 +88,7 @@
     margin: 0;
     text-transform: uppercase;
 }
+
 .task__input {
     margin: 0;
     font-size: 18px;
@@ -88,6 +101,7 @@
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 .task__input:focus {
     color: #333;
 }
@@ -97,6 +111,7 @@
     display: block;
     margin: 0 0 20px;
 }
+
 #new-task {
     width: 318px;
 }
@@ -110,6 +125,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .task > * {
     vertical-align: middle;
 }
@@ -117,20 +133,24 @@
 .task__check {
     margin: 0 10px;
 }
+
 .task__title {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 .task__input-edit {
-    width: 226px
+    width: 226px;
 }
+
 .button__img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .button__img:hover {
     transform: rotateZ(0);
 }
@@ -143,14 +163,14 @@
 
 /* Edit Task */
 .task__input-edit {
-    display:none
+    display: none;
 }
 
 .task-edit .task__input-edit {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px;
 }
 
 .task-edit .task__title {
-    display:none;
+    display: none;
 }
